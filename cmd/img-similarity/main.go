@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	"gocv.io/x/gocv"
+	"gocv"
 	"gocv.io/x/gocv/contrib"
 )
 

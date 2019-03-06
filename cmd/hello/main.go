@@ -2,7 +2,7 @@
 package main
 
 import (
-	"gocv.io/x/gocv"
+	"gocv"
 )
 
 func main() {

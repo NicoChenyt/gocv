@@ -1,7 +1,7 @@
 package contrib
 
 import (
-	"gocv.io/x/gocv"
+	"gocv"
 	"math"
 	"testing"
 )

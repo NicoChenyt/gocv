@@ -495,6 +495,17 @@ func TestMatConvert(t *testing.T) {
 	}
 }
 
+func TestMatConvertWithScala(t *testing.T) {
+	src := NewMatWithSize(100, 100, MatTypeCV32F)
+	defer src.Close()
+	dst := NewMat()
+	defer dst.Close()
+	src.ConvertToWithScale(&dst, MatTypeCV16S, 1.2, 20)
+	if dst.Empty() {
+		t.Error("TestConvertWithScala dst should not be empty.")
+	}
+}
+
 func TestMatConvertFp16(t *testing.T) {
 	src := NewMatWithSize(100, 100, MatTypeCV32F)
 	defer src.Close()

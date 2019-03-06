@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"gocv.io/x/gocv"
+	"gocv"
 )
 
 func TestSIFT(t *testing.T) {

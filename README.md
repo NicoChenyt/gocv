@@ -25,7 +25,7 @@ This example opens a video capture device using device "0", reads frames, and sh
 package main
 
 import (
-	"gocv.io/x/gocv"
+	"gocv"
 )
 
 func main() {
@@ -54,7 +54,7 @@ import (
 	"fmt"
 	"image/color"
 
-	"gocv.io/x/gocv"
+	"gocv"
 )
 
 func main() {
@@ -420,7 +420,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"gocv.io/x/gocv"
+	"gocv"
 )
 
 func leak() {
@@ -464,7 +464,7 @@ import (
 	_ "net/http/pprof"
 	"time"
 
-	"gocv.io/x/gocv"
+	"gocv"
 )
 
 func leak() {

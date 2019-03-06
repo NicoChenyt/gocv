@@ -18,7 +18,7 @@ import (
 	"image"
 	"os"
 
-	"gocv.io/x/gocv"
+	"gocv"
 	"gocv.io/x/gocv/openvino/pvl"
 )
 

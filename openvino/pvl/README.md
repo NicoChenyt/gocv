@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"image/color"
 
-	"gocv.io/x/gocv"
+	"gocv"
 	"gocv.io/x/gocv/openvino/pvl"
 )
 
