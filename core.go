@@ -106,6 +106,10 @@ type Mat struct {
 	p C.Mat
 }
 
+func (m Mat) GetPtr() C.Mat {
+	return m.p
+}
+
 // NewMat returns a new empty Mat.
 func NewMat() Mat {
 	return newMat(C.Mat_New())
